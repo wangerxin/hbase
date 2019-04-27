@@ -15,7 +15,7 @@ public class HbaseTest {
 
     public static void main(String[] args) throws IOException {
 
-        // see github
+        // see github，小王做了修改
         //1.配置信息
         configuration = HBaseConfiguration.create();
         configuration.set("hbase.zookeeper.quorum", "192.168.1.102");
