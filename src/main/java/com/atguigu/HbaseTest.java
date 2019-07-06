@@ -7,6 +7,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
+
 public class HbaseTest {
 
     private static Configuration configuration = null;
@@ -55,7 +56,7 @@ public class HbaseTest {
     public static void createTable(String tableName, String... cf) throws IOException {
 
         if (admin.tableExists(TableName.valueOf(tableName))) {
-            System.out.println(tableName + "已经存在");
+            System.out.println(tableName + "已经存在!");
             return;
         } else {
             //表描述器
